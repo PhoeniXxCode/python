@@ -1,0 +1,22 @@
+List = [ 50, 60, 70, 80, 90, 100,110,120,130,140,150]
+print(' MY List: ',List)
+print('first element: ',List[0]) 
+print('fourth element: ',List[3]) 
+print('MY List elements from 0 to 4 index:',List[0: 5]) 
+print('3rd or -7th element:',List[-7]) 
+List.append(111)
+print('MY List after append():',List)
+print('index of \'80\': ',List.index(80))
+List.sort()
+print('after sorting: ', List);
+print('Popped elements is: ',List.pop())
+print('after pop(): ', List);
+List.remove(80)
+print('after removing \'80\': ',List)
+List.insert(2, 100)
+print('after insert: ', List)
+print('number of occurences of \'100\': ', List.count(100))
+List.extend([11, 22, 33])
+print('after extending:', List)
+List.reverse()
+print('after reversing:', List)
